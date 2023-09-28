@@ -8,13 +8,18 @@
 </head>
 <body>
     <script>
-  
-        for(var j = 0; j<=50; j++){
+        
+        var numeros = [];
 
-            for(var i = 0; i<j;i++){
-                document.write(j);
+        for(var i = 1; i <= 50; i++){
+            numeros.push(i);
+            for(var j = 0; j <= numeros.length; j++){
+                document.write(numeros[j]);
+               
             }
-           document.write("<br>")
+            
+         document.write("<br>");    
+            
         }
        
 
