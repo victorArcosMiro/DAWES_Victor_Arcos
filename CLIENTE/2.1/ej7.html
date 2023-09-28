@@ -11,12 +11,13 @@
 
         do{
                 var n1 = prompt("Introduce un numero para saber si es par o impar: ");
+            }while(isNaN(n1));
             if(n1%2==0){
                 document.write("El numero ", n1, " es par.");
             }else{
                 document.write("El numero ", n1, " es impar.");
             }
-        }while(n1==null);
+
 
     </script>
 </body>
